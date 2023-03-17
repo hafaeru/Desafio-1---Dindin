@@ -1,8 +1,5 @@
 
 
-
-
-
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -12,7 +9,6 @@ body {
     margin: 70px;
     padding: 35px;
     justify-content: space-evenly
-    
     
 }
 .titulo-h1 {
@@ -30,8 +26,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-   
     
 }
 
@@ -54,3 +48,8 @@ body {
  font-size: 16px;
  
 }
+
+.toda-section {
+    background-color: #E5E5E5;
+}
+

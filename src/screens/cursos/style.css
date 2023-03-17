@@ -7,68 +7,13 @@ font-family: 'Ubuntu', sans-serif;
     margin: 70px;
     padding: 70px;
 }
-.titulo-h1 {
-    position: absolute;
-    left: 220px;
-    top: 50px;
-    color: #FF4081;
-    font-size: 60px;
-}
-.subtitulo {
-    position: absolute;
-    left: 220px;
-    top: 150px;
-    font-size: 20px;
-}
-.primeiro-h3 {
-    color: #FF4081;
-    font-size: 35px;
-}
-.segundo-h3 {
-    color: #FF4081;
-    font-size: 35px;
-}
-.terceiro-h3 {
-    color: #FF4081;
-    font-size: 35px;
-}
 
-.paragráfos {
-    font-size: 18px;
-    width: 300;
-}
-.primeiro-botão {
-    background-color: #419488;
-    color: #FFFFFF;
-    padding: 15px 45px 15px 45px;
-    border-radius: 62px;
-    font-size: 16px;
-    border: 0px solid #00537C;
-}
-
-.segundo-botão {
-    background-color: #419488;
-    color: #FFFFFF;
-    padding: 15px 45px 15px 45px;
-    border-radius: 62px;
-    font-size: 16px;
-    border: 0px solid #00537C;
-}
-
-.terceiro-botão {
-    background-color: #419488;
-    color: #FFFFFF;
-    padding: 15px 45px 15px 45px;
-    border-radius: 62px;
-    font-size: 16px;
-    border: 0px solid #00537C;
-}
 .segunda-seção {
     display: flex;
     justify-content: space-evenly;
     margin: 60px;
-
 }
+
 .terceira-seção {
 
     display: flex;
@@ -85,5 +30,55 @@ font-family: 'Ubuntu', sans-serif;
     height: 5px;
     background-color: #C4C4C4;
     border: 0;
-    
 }
+.titulo-h1 {
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    color: #FF4081;
+    font-size: 60px;
+}
+.subtitulo {
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    font-size: 20px;
+}
+
+.paragráfos {
+    font-size: 18px;
+    width: 300;
+}
+.todosh3 {
+   color: #FF4081;
+   font-size: 30px;
+}
+
+.botões {
+    background-color: #419488;
+    color: #FFFFFF;
+    padding: 15px 45px 15px 45px;
+    border-radius: 62px;
+    font-size: 16px;
+    border: 0px solid #00537C;
+
+}
+
+.seções {
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly ;
+    margin:  50px;
+    padding: 70px;
+ }
+
+.toda-section {
+  position: relative;
+  top: 200px ;
+
+}
+
+
+
