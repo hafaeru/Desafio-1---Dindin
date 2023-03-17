@@ -1,0 +1,237 @@
+@media (min-width: 1281px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        padding-right: 280px;
+    }
+
+    .contato h1 {
+        color: var(--text-primary-color);
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+
+    form input {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #686868;
+        width: 493px;
+        height: 32px;
+        border-radius: 7px;
+        justify-content: space-around;
+        outline: none;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+    form input:focus {
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.20);
+    }
+
+    form textarea {
+        width: 493px;
+        height: 193px;
+        border: 1px solid #686868;
+        border-radius: 7px;
+        outline: none;
+        resize: none;
+        padding-top: 15px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contato button {
+        background-color: var(--text-primary-color);
+        color: #fff;
+        border-radius: 50px;
+        border: none;
+        height: 32px;
+        width: 108px;
+        margin-bottom: 100px;
+    }
+
+    .contato button:hover {
+        transition: 1s;
+        background-color: #fff;
+        border: solid 1px var(--text-primary-color);
+        color: var(--text-primary-color);
+    }
+
+    .contato button:active {
+        background-color: var(--text-primary-color);
+
+    }
+
+
+    main img {
+        max-width: 444px;
+        max-height: 444px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 2em;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1.5em;
+    }
+    
+    .contato h1 {
+        color: var(--text-primary-color);
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+
+    form input {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #686868;
+        width: 22em;
+        height: 1.75em;
+        border-radius: 7px;
+        justify-content: space-around;
+        outline: none;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    form input:focus {
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.20);
+    }
+
+    form textarea {
+        width: 22em;
+        height: 193px;
+        border: 1px solid #686868;
+        border-radius: 7px;
+        outline: none;
+        resize: none;
+        padding-top: 15px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contato button {
+        background-color: var(--text-primary-color);
+        color: #fff;
+        border-radius: 50px;
+        border: none;
+        height: 32px;
+        width: 108px;
+        margin-bottom: 100px;
+    }
+
+    .contato button:hover {
+        transition: 1s;
+        background-color: #fff;
+        border: solid 1px var(--text-primary-color);
+        color: var(--text-primary-color);
+    }
+
+    .contato button:active {
+        background-color: var(--text-primary-color);
+
+    }
+
+
+    main img {
+        display: flex;
+        justify-content: flex-end;
+        max-width: 444px;
+        max-height: 444px;
+        padding-left: 2em;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) { 
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3em;
+    }
+
+
+    .contato h1 {
+        color: var(--text-primary-color);
+        font-size: 3em;
+        padding-bottom: 0.75em;
+        text-align: center;
+    }
+
+    form input {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border: 1px solid #686868;
+        width: 22em;
+        height: 32px;
+        border-radius: 7px;
+        outline: none;
+        margin-bottom: 20px;
+    }
+
+    form input:focus {
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.20);
+    }
+
+    form textarea {
+        width: 22em;
+        height: 12em;
+        border: 1px solid #686868;
+        border-radius: 7px;
+        outline: none;
+        resize: none;
+        padding-top: 15px;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .contato button {
+        background-color: var(--text-primary-color);
+        color: #fff;
+        border-radius: 50px;
+        border: none;
+        height: 32px;
+        width: 22em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contato button:hover {
+        transition: 1s;
+        background-color: #fff;
+        border: solid 1px var(--text-primary-color);
+        color: var(--text-primary-color);
+    }
+
+    .contato button:active {
+        transition: 0.25s;
+        background-color: var(--text-primary-color);
+
+    }
+
+    main img {
+        max-width: 75%;
+    }
+
+}

@@ -1,0 +1,89 @@
+body {  
+font-family: 'Ubuntu', sans-serif;
+}
+
+.primeira-seção {
+    justify-content: space-evenly;
+    margin: 70px;
+    padding: 70px;
+}
+.titulo-h1 {
+    position: absolute;
+    left: 220px;
+    top: 50px;
+    color: #FF4081;
+    font-size: 60px;
+}
+.subtitulo {
+    position: absolute;
+    left: 220px;
+    top: 150px;
+    font-size: 20px;
+}
+.primeiro-h3 {
+    color: #FF4081;
+    font-size: 35px;
+}
+.segundo-h3 {
+    color: #FF4081;
+    font-size: 35px;
+}
+.terceiro-h3 {
+    color: #FF4081;
+    font-size: 35px;
+}
+
+.paragráfos {
+    font-size: 18px;
+    width: 300;
+}
+.primeiro-botão {
+    background-color: #419488;
+    color: #FFFFFF;
+    padding: 15px 45px 15px 45px;
+    border-radius: 62px;
+    font-size: 16px;
+    border: 0px solid #00537C;
+}
+
+.segundo-botão {
+    background-color: #419488;
+    color: #FFFFFF;
+    padding: 15px 45px 15px 45px;
+    border-radius: 62px;
+    font-size: 16px;
+    border: 0px solid #00537C;
+}
+
+.terceiro-botão {
+    background-color: #419488;
+    color: #FFFFFF;
+    padding: 15px 45px 15px 45px;
+    border-radius: 62px;
+    font-size: 16px;
+    border: 0px solid #00537C;
+}
+.segunda-seção {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+
+}
+.terceira-seção {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+.quarta-seção {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+}
+.linha-do-tempo {
+    width: 1520px;
+    height: 5px;
+    background-color: #C4C4C4;
+    border: 0;
+    
+}

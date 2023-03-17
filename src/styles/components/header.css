@@ -1,0 +1,122 @@
+@media (min-width: 1281px) {
+
+    header {
+        background-color: var(--background-color);
+        z-index: 1000;
+        height: 120px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    }
+
+    header img {
+        padding-left: 82px;
+    }
+
+    .links-header {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        padding-right: 100px;
+        gap: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .links-header a {
+        padding: 20px;
+    }
+
+    .links-header a:hover {
+        transition: 1s;
+        color: var(--text-primary-color);
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    header {
+        background-color: var(--background-color);
+        z-index: 1000;
+        height: 8.5em;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    }
+
+    header img {
+        padding-left: 3em;
+    }
+
+    .links-header {
+        position: relative;
+        color: #fff;
+        font-size: 16px;
+        padding: 0.75em;
+        padding-right: 2.25em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .links-header a {
+        padding: 0.75em;
+    }
+
+    .links-header a:active {
+        transition: 0.25s;
+        color: var(--text-primary-color);
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    header {
+        background-color: var(--background-color);
+        z-index: 1000;
+        height: 9em;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    }
+
+    header img {
+        padding-top: 1.25em;
+    }
+
+    .links-header {
+        position: relative;
+        color: #fff;
+        font-size: 16px;
+        padding: 0.75em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links-header a {
+        padding: 0.75em;
+    }
+
+    .links-header a:active {
+        transition: 0.25s;
+        color: var(--text-primary-color);
+
+    }
+}

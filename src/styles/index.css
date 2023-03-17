@@ -1,0 +1,730 @@
+@media (min-width: 1281px) {
+
+    .educacao-financeira {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3.12em;
+        padding-bottom: 6.25em;
+    }
+
+    .educacao-financeira img {
+        padding-top: 6.25em;
+        padding-left: 6.25em;
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        width: 30%  ;
+
+
+    }
+
+    .textos h1 {
+        color: var(--text-primary-color);
+        font-size: 3.75em;
+        padding-bottom: 1em;
+    }
+
+    .textos p {
+        color: #555555;
+        font-size: 27px;
+        padding-bottom: 2.5em;
+    }
+
+    .textos button {
+        background-color: #fff;
+        color: var(--text-primary-color);
+        border-color: var(--text-primary-color);
+        font-size: 27px;
+        border-radius: 62px;
+        padding-left: 1.62em;
+        padding-right: 1.62em;
+        padding-top: 0.5em;
+        padding-bottom: 0.62em;
+        max-width: 16.75em;
+    }
+
+    .textos button:hover {
+        transition: 0.5s;
+        background-color: var(--text-primary-color);
+        color: #fff
+    }
+
+    .textos button:active {
+        transition: 1s;
+        background-color: var(--text-secondary-color);
+
+    }
+
+    .banners {
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5em;
+        padding-bottom: 7.5em;
+    }
+
+    .banners h2 {
+        color: var(--text-primary-color);
+        font-size: 25px;
+        padding-top: 25px;
+    }
+
+    .banners p {
+        font-size: 17px;
+        text-align: center;
+        text-justify: inter-word;
+        max-width: 65%;
+        padding-top: 1.25em;
+        padding-bottom: 1.875em;
+    }
+
+    .banners button {
+        background-color: var(--text-primary-color);
+        font-size: 1.25em;
+        border-radius: 62px;
+        padding-left: 3.125em;
+        padding-right: 3.125em;
+        padding-top: 0.9em;
+        padding-bottom: 0.9em;
+        color: #fff;
+        border: none;
+    }
+
+    .banners button:hover {
+        transition: 0.5s;
+        background-color: var(--text-secondary-color);
+        color: #fff
+    }
+
+    .banners button:active {
+        transition: 1s;
+        background-color: var(--text-primary-color);
+
+    }
+
+    .banners img {
+        max-height: 16.87em;
+        padding: 1.875em;
+        padding-bottom: 1.25em;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.25em;
+    }
+
+    .o-que-falam {
+        padding-bottom: 10em;
+    }
+
+    .o-que-falam h3 {
+        padding-top: 3.5em;
+        padding-left: 3.5em;
+        color: var(--text-secondary-color);
+        font-size: 37px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .pessoas {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        padding-right: 1.25em;
+        padding-left: 8em;
+    }
+    .pessoa {
+
+        padding-top: 5em;
+        padding-right: 8em;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        align-items: center;
+
+    }
+
+    .pessoa p {
+
+        padding-bottom: 0.62em;
+    }
+
+    .pessoa img {
+        max-width: 6.5em;
+        max-height: 6.5em;
+    }
+    .texto-pessoa {
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        width: 27em;
+        padding-left: 2.5em;
+        padding-bottom: 1.25em;
+    }
+
+    .mais-conteudo {
+        background-color: #F7F7F7;
+        padding-bottom: 5em;
+    }
+
+    .links-mais-conteudo {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        padding-bottom: 7.5em;
+    }
+
+    .mais-conteudo h4 {
+        color: var(--text-secondary-color);
+        font-size: 37px;
+        padding-left: 3.5em;
+        padding-top: 3em;
+        padding-bottom: 2.5em;
+    }
+
+    .links {
+        padding-left: 8.2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .retangulo {
+        background-color: #C4C4C4;
+        width: 20em;
+        height: 12.125em;
+
+    }
+
+    .links h5 {
+        color: var(--text-secondary-color);
+        font-size: 27px;
+        padding-top: 1.25em;
+    }
+
+    .links p {
+        max-width: 21.25em;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mais-conteudo button {
+
+        background-color: #fff;
+        color: var(--text-primary-color);
+        border-color: var(--text-primary-color);
+        font-size: 25px;
+        border-radius: 62px;
+        padding-left: 1.875em;
+        padding-right: 1.875em;
+        padding-top: 0.53em;
+        padding-bottom: 0.62em;
+    }
+
+    .mais-conteudo button:hover {
+        transition: 0.5s;
+        background-color: var(--text-primary-color);
+        color: #fff
+    }
+
+    .mais-conteudo button:active {
+        transition: 1s;
+        background-color: var(--text-secondary-color);
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .educacao-financeira {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1em;
+        padding-bottom: 6.25em;
+        padding-left: 3em;
+    }
+
+    .educacao-financeira img {
+        padding-top: 5em;
+        
+    }
+
+    .textos {
+        display: flex;
+        flex-direction: column;
+        width: 30%  ;
+
+
+    }
+
+    .textos h1 {
+        color: var(--text-primary-color);
+        font-size: 3.75em;
+        padding-bottom: 0.5em;
+    }
+
+    .textos p {
+        color: #555555;
+        font-size: 27px;
+        padding-bottom: 1.75em;
+        padding-left: 0.4em;
+    }
+
+    .textos button {
+        background-color: #fff;
+        color: var(--text-primary-color);
+        border-color: var(--text-primary-color);
+        font-size: 22px;
+        position: absolute;
+        border-radius: 62px;
+        padding-left: 1.62em;
+        padding-right: 1.62em;
+        padding-top: 0.5em;
+        padding-bottom: 0.62em;
+        margin-top: 20em;
+        max-width: 16.75em;
+    }
+
+    .textos button:hover {
+        transition: 0.5s;
+        background-color: var(--text-primary-color);
+        color: #fff
+    }
+
+    .textos button:active {
+        transition: 0.25;
+        background-color: var(--text-secondary-color);
+
+    }
+
+    .banners {
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3em;
+        padding-bottom: 4em;
+        text-align: center;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .banners h2 {
+        color: var(--text-primary-color);
+        font-size: 24px;
+        padding-top: 25px;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .banners img {
+        width: 60%;
+        max-height: 180px;
+    }
+
+    .banners p {
+        font-size: 14px;
+
+        text-align: center;
+        padding-top: 1.25em;
+        padding-bottom: 1.875em;
+        padding-right: 3em;
+        padding-left: 3em;
+
+    }
+
+    .banners button {
+        background-color: var(--text-primary-color);
+        font-size: 0.8em;
+        border-radius: 62px;
+        padding-left: 3.125em;
+        padding-right: 3.125em;
+        padding-top: 0.9em;
+        padding-bottom: 0.9em;
+        color: #fff;
+        border: none;
+    }
+
+    .banners button:hover {
+        transition: 0.5s;
+        background-color: var(--text-secondary-color);
+        color: #fff
+    }
+
+    .banners button:active {
+        transition: 1s;
+        background-color: var(--text-primary-color);
+    }
+
+
+    
+    .o-que-falam {
+        padding-bottom: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3em;
+    }
+
+    .o-que-falam h3 {
+        color: var(--text-secondary-color);
+        font-size: 37px;
+        font-family: 'Nunito', sans-serif;
+        padding-bottom: 0.5em;
+    }
+
+    .pessoas {
+        padding-left: 1.5em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pessoa {
+        padding-top: 2em;
+        padding-right: 3em;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .pessoa p {
+        padding-bottom: 0.62em;
+    }
+
+    .pessoa img {
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+    .texto-pessoa {
+        font-family: 'Nunito', sans-serif;
+        font-size: 14px;
+    }
+
+    .mais-conteudo {
+        background-color: #F7F7F7;
+        padding-bottom: 5em;
+    }
+
+    .links-mais-conteudo {
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        padding-bottom: 4em;
+    }
+
+    .mais-conteudo h4 {
+        color: var(--text-secondary-color);
+        font-size: 36px;
+        text-align: center;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+    }
+
+    .retangulo {
+        background-color: #C4C4C4;
+        width: 15em;
+        height: 9em;
+    }
+
+    .links h5 {
+        color: var(--text-secondary-color);
+        font-size: 20px;
+        padding-top: 1em;
+    }
+
+    .links p {
+        padding-top: 1em;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mais-conteudo button {
+
+        background-color: #fff;
+        color: var(--text-primary-color);
+        border-color: var(--text-primary-color);
+        font-size: 20px;
+        border-radius: 62px;
+        padding-left: 1.875em;
+        padding-right: 1.875em;
+        padding-top: 0.53em;
+        padding-bottom: 0.62em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .educacao-financeira {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textos h1 {
+        color: var(--text-primary-color);
+        display: flex;
+        align-items: center;
+        font-size: 3.75em;
+        padding-left: 0.75em;
+        padding-top: 1em;
+    }
+
+    .textos p {
+        color: #555555;
+        font-size: 1.7em;
+        padding-bottom: 2.5em;
+        padding-left: 1.75em;
+        padding-top: 1em;
+        max-width: 10em;
+    }
+
+    .textos button {
+        background-color: #fff;
+        color: var(--text-primary-color);
+        border-color: var(--text-primary-color);
+        font-size: 27px;
+        border-radius: 62px;
+        padding-left: 1.62em;
+        padding-right: 1.62em;
+        padding-top: 0.5em;
+        padding-bottom: 0.62em;
+        max-width: 14em;    
+        margin-left: 1.62em;
+        margin-bottom: 2em;
+    }
+
+    .educacao-financeira img {
+        position: absolute;
+        height: 50%;
+        padding-left: 375px;
+        padding-top: -50px;
+        z-index: -1000;
+        opacity: 25%;
+        
+    }
+
+    .textos button:hover {
+        transition: 0.5s;
+        background-color: var(--text-primary-color);
+        color: #fff
+    }
+
+    .textos button:active {
+        transition: 0.25s;
+        background-color: var(--text-secondary-color);
+
+    }
+
+
+    .banners {
+        background-color: #F7F7F7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2em;
+        padding-bottom: 3em;
+    }
+
+    .banners img {
+        width: 75%;
+        max-height: 320px;
+        padding-bottom: 1.25em;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4em;
+    }
+
+    .banners h2 {
+        color: var(--text-primary-color);
+        font-size: 1.56em;
+        padding-top: 1.56em;
+    }
+    .banners p {
+        font-size: 1em;
+        text-align: center;
+        text-justify: inter-word;
+        max-width: 80%;
+        padding-top: 1.25em;
+        padding-bottom: 1.875em;
+        
+    }
+
+    .banners button {
+        background-color: var(--text-primary-color);
+        font-size: 1.25em;
+        border-radius: 62px;
+        padding-left: 3.125em;
+        padding-right: 3.125em;
+        padding-top: 0.7em;
+        padding-bottom: 0.7em;
+
+        color: #fff;
+        border: none;
+    }
+
+    .banners button:hover {
+        transition: 0.5s;
+        background-color: var(--text-secondary-color);
+        color: #fff
+    }
+
+    .banners button:active {
+        transition: 1s;
+        background-color: var(--text-primary-color);
+
+    }
+
+    .o-que-falam {
+        padding-bottom: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .o-que-falam h3 {
+        font-size: 2.3em;
+        padding-top: 2em;
+        color: var(--text-secondary-color);
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        max-width: 10em;
+    }
+
+    .pessoas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .pessoa p {
+        padding-top: 1.5em;
+    }
+
+    .pessoa {
+        padding-top: 5em;
+    }
+
+    .texto-pessoa {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1em;
+    }
+
+    .mais-conteudo {
+        background-color: #F7F7F7;
+        padding-bottom: 5em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mais-conteudo h4 {
+        color: var(--text-secondary-color);
+        padding-bottom: 2.5 em;
+        font-size: 2em;
+        padding-top: 1.56em;
+        padding-bottom: 2em;
+        max-width: 80%;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 2em;
+    }
+
+    .retangulo {
+        background-color: #C4C4C4;
+        width: 20em;
+        height: 12.125em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .links h5 {
+        color: var(--text-secondary-color);
+        font-size: 1.68em;
+        padding-top: 1.25em;
+        padding-bottom: 1em;
+    }
+
+    .links p {
+        max-width: 21.25em;
+    }
+
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mais-conteudo button {
+
+        background-color: #fff;
+        color: var(--text-primary-color);
+        border-color: var(--text-primary-color);
+        font-size: 25px;
+        border-radius: 62px;
+        padding-left: 1.875em;
+        padding-right: 1.875em;
+        padding-top: 0.53em;
+        margin-top: 2em;
+        padding-bottom: 0.62em;
+    }
+
+    .mais-conteudo button:hover {
+        transition: 0.5s;
+        background-color: var(--text-primary-color);
+        color: #fff
+    }
+
+    .mais-conteudo button:active {
+        transition: 1s;
+        background-color: var(--text-secondary-color);
+
+    }
+}

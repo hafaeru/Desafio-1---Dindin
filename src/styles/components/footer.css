@@ -1,0 +1,201 @@
+@media (min-width: 1281px) {
+    footer {
+        background-color: var(--background-color);
+        z-index: 1000;
+        height: 207px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .links-footer {
+        display: flex;
+        flex-direction: column;
+
+        padding-right: 150px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 3px;
+    }
+
+    footer a:hover {
+        transition: 1s;
+        color: var(--text-primary-color);
+
+    }
+
+    .botoes-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    footer button {
+        background-color: var(--background-color);
+        border-color: #fff;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 62px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 8.5px;
+        padding-bottom: 10px;
+    }
+
+    footer button:hover {
+        transition: 0.5s;
+        background-color: #fff;
+        color: var(--text-secondary-color)
+    }
+
+    footer button:active {
+        transition: 1s;
+        background-color: var(--text-secondary-color);
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    footer {
+        background-color: var(--background-color);
+        z-index: 1000;
+        height: 9em;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    footer img {
+        width: 25%;
+    }
+
+    .links-footer {
+        display: flex;
+        flex-direction: column;
+
+        padding-right: 150px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    footer a:hover {
+        transition: 1s;
+        color: var(--text-primary-color);
+
+    }
+
+    .botoes-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 1em;
+    }
+
+    footer button {
+        background-color: var(--background-color);
+        border-color: #fff;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 62px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8.5px;
+        padding-bottom: 10px;
+    }
+
+    footer button:hover {
+        transition: 0.5s;
+        background-color: #fff;
+        color: var(--text-secondary-color)
+    }
+
+    footer button:active {
+        transition: 0.25s;
+        background-color: var(--text-secondary-color);
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    footer {
+        background-color: var(--background-color);
+        z-index: 1000;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer img {
+        width: 50%;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-right: 1.5em;
+        padding-left: 1em;
+    }
+
+    footer a {
+        display: none;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        padding:1em;
+    }
+
+    footer a:hover {
+        transition: 1s;
+        color: var(--text-primary-color);
+
+    }
+
+    .botoes-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer button {
+        background-color: var(--background-color);
+        border-color: #fff;
+        color: #fff;
+        font-size: 12px;
+        border-radius: 18px;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 8.5px;
+        padding-bottom: 10px;
+        margin: 0.5em;
+        margin-right: 1em;
+    
+    }
+
+    footer button:hover {
+        transition: 0.5s;
+        background-color: #fff;
+        color: var(--text-secondary-color)
+    }
+
+    footer button:active {
+        transition: 0.25s;
+        background-color: var(--text-secondary-color);
+
+    }
+}

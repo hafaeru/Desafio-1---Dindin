@@ -1,0 +1,56 @@
+
+
+
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.primeira-seção {
+   display: flex;
+    margin: 70px;
+    padding: 35px;
+    justify-content: space-evenly
+    
+    
+}
+.titulo-h1 {
+    color: #009688;
+    font-size: 47px;
+    height: 100px;
+}
+
+.toda-seção {
+    background-color: #E5E5E5;
+}
+.somente-blocos-e-textos {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+    
+}
+
+.todos-os-blocos-section {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    
+}
+.todos-os-blocos {
+    width: 100%;
+}
+.todos-h2 {
+    font-size: 30px;
+    color: #FF4081;
+}
+.paragráfos {
+ font-size: 16px;
+ 
+}
